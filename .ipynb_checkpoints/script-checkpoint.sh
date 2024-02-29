@@ -1,0 +1,1 @@
+TORCH_DISTRIBUTED_DEBUG=INFO python -m torch.distributed.launch --nproc_per_node=2 tools/train_entropy.py --gpus 2 --launcher pytorch --validate --work-dir aitod_output/bir18/ --config configs/rfla/aitod_faster_rcnn_rfla_bir18.py --config-t configs/rfla/aitod_tea_faster_rcnn_rfla_r50.py --checkpoint-t configs/pretrain/aitod_r50_rfla_20_8.pth

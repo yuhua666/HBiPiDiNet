@@ -1,0 +1,5 @@
+*.pth
+*.pth.tar
+*.png
+build/
+*.egg
